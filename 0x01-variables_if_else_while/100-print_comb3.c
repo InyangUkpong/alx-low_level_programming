@@ -9,7 +9,6 @@ int main(void)
 {
 	int b, i;
 
-	b = i = '0';
 	for ( b = '0'; b <= '9'; b++)
 	{
 		for (i = '0'; i <= '9'; i++)
