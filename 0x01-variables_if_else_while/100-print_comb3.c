@@ -9,21 +9,25 @@ int main(void)
 {
 	int b, i;
 
-	for ( b = '0'; b <= '9'; b++)
+	for (b = '0'; b <= '9'; b++)
 	{
 		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(b);
-			putchar(i);
-
-			if ((b != '9') || (b == '9' && i != '9'))
+			if (b < i)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(b);
+				putchar(i);
+
+				if (b != '8' || (b == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
-	
+
 	putchar('\n');
 
 	return (0);
+}
