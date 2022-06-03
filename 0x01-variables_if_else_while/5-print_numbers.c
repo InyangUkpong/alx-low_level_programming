@@ -13,7 +13,6 @@ int main(void)
 	{
 		putchar(f);
 	}
-
 	putchar('\f');
 
 	return (0);
