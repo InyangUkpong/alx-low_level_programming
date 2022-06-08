@@ -15,6 +15,7 @@ while (i <= 9)
 {
 	char ch = 'a';
 	while (ch  <= 'z')
+
 	{
 	_putchar (ch);
 	ch++;
