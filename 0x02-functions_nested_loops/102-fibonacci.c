@@ -16,13 +16,13 @@ int mai(void)
 	for (counter = 1; counter <= (counts / 2); counter++)
 
 	{
-		printf("%li %li ", a, b);
+		printf("%ld %ld ", a, b);
 		a += b;
 		b += a;
 	}
 
 	if (counts % 2 == 1)
-		printf("%li", a);
+		printf("%ld", a);
 
 	printf("\n");
 
