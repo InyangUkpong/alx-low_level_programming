@@ -30,8 +30,8 @@ if ( y == 0)
 if (z / 10 == 0)
 		_putchar(' ');
 		else
-		_putchar((m /10) + '0');
-		_putchar((m % 10) + '0');
+		_putchar((z /10) + '0');
+		_putchar((z % 10) + '0');
 	}
 		_putchar('\n');
 
