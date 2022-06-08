@@ -17,7 +17,7 @@ int main(void)
 	s = 1;
 	tot = 0;
 
-while (sum < 400000)
+while (sum < 4000000)
 {
 	sum = f + s;
 if (sum % 2 == 0)
