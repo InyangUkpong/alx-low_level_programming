@@ -14,7 +14,7 @@ int pld;
 
 pld = (x % 10);
 
-if (pld <0)
+if (pld < 0)
 
 {
 	pld = (-1 * pld);
