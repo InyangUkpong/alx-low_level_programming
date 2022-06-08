@@ -6,10 +6,10 @@
  * Return: 0
  */
 
-int mai(void)
+int main(void)
 
 {
-	long int f, s, c, sum:
+	long int f, s, c, sum;
 
 		sum = 0;
 		f = 0;
@@ -20,7 +20,7 @@ int mai(void)
 
 	{
 		sum = f + s;
-		printf("%;d", sum);
+		printf("%ld", sum);
 	if (c != 49)
 
 	{
