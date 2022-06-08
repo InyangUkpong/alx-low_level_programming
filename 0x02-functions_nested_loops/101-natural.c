@@ -10,7 +10,7 @@
 int main(void)
 
 {
-	int f, q =0;
+	int f, q = 0;
 
 	while (f < 1024)
 	{
