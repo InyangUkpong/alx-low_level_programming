@@ -27,7 +27,7 @@ if ( y == 0)
 		_putchar(',');
 		_putchar(' ');
 
-if (m / 10 == 0)
+if (z / 10 == 0)
 		_putchar(' ');
 		else
 		_putchar((m /10) + '0');
