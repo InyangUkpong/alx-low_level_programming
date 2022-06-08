@@ -8,7 +8,7 @@
  * Return: 1 or 0
  */
 
-int _abs (int nums)
+int _abs(int nums)
 {
 	if (nums < 0)
 	{
