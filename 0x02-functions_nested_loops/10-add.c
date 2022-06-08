@@ -2,17 +2,17 @@
 
 /**
  * add - this function adds two integers
- * @x: is an integer number
- * @y: is an integer number
+ * @a: is an integer number
+ * @b: is an integer number
  * Description: function to add two integers
  * Return: sum of the two integers
  */
 
-int add(int x, int y)
+int add(int a, int b)
 {
 	int sum;
 
-	sum = x + y;
+	sum = a + b;
 
 	return (sum);
 }
