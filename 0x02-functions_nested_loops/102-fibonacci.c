@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main prints the fibonacci numbers
- * description: function that prints the first 50 fibonacci numbers, starting with 1 and 2, followed by a new line
+ * main- prints the fibonacci numbers
+ * description: function that prints the first 50 fibonacci numberse
  * Return: 0
  */
 
