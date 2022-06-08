@@ -11,11 +11,15 @@ int _isalpha (int c)
 
 {
 
-if ((c >= 'a' || c >= "A') && (c <= 'z' || c <= 'Z'))
+if ((c >= 'a' || c >= 'A') && (c <= 'z' || c <= 'Z'))
+
 {
+
 	return (1);
+
 }
-	else
+else
+
 {
 	return (0);
 }
