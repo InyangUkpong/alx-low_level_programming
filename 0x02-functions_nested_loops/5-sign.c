@@ -6,7 +6,7 @@
  * Return: 1 if c is lowercase else return 0
  */
 
-int print_sign(in n)
+int print_sign(int n)
 
 {
 	if (n > 0)
