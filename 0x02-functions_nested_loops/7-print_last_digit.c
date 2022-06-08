@@ -2,26 +2,26 @@
 
 /**
  * print_last_digit - a function that prints the last digit of a number
- * @x: is an integer
- * Return: 0 (Success)
+ * @x: is numbers last digit result
+ * Return:value of last digit
  */
 
 int print_last_digit(int x)
 
 {
 
-if (x > 0 || x == 0)
+int pld;
+
+pld = (x % 10);
+
+if (pld <0)
 
 {
-	_putchar (x % 10 + '0');
-	return (x % 10);
-}
-else
-{
-	x = x * -1;
-	_putchar (x % 10 + '0');
+	pld = (-1 * pld);
 
-	return (x % 10);
 }
+
+	_putchar(pld + '0');
+	return (pld);
 
 }
