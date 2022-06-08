@@ -7,26 +7,33 @@
  */
 
 int mai(void)
-{
-	int counter;
-	int counts = 50;
-	long a  =1;
-	long b = 2;
 
-	for (counter = 1; counter <= (counts / 2); counter++)
+{
+	long int f, s, c, sum:
+
+		sum = 0;
+		f = 0;
+		s = 1;
+		c = 0;
+
+	while (c < 50)
 
 	{
-		printf("%ld %ld ", a, b);
-		a += b;
-		b += a;
+		sum = f + s;
+		printf("%;d", sum);
+	if (c != 49)
+
+	{
+		printf(", ");
 	}
 
-	if (counts % 2 == 1)
-		printf("%ld", a);
+		f = s;
+		s = sum;
+		c++;
+	}
+		printf("\n");
 
-	printf("\n");
-
-	return (0);
+		return (0);
 
 }
 
