@@ -38,7 +38,7 @@ int main(void)
 		if (printshalf >= 1000000000)
 		{
 			printshalf %= 1000000000;
-			printhalf++;
+			printfhalf++;
 		}
 		printf("%ld%ld", printfhalf, printshalf);
 		if (c == 97)
