@@ -35,7 +35,7 @@ int main(void)
 	{
 		printfhalf = halfaf + halfas;
 		printshalf = halfbf + halfbs;
-		of (printshalf >= 1000000000)
+		if (printshalf >= 1000000000)
 		{
 			printshalf %= 1000000000;
 			printhalf++;
@@ -46,7 +46,7 @@ int main(void)
 		printf(", ");
 		halfaf = halfas;
 		halfbf = halfbs;
-		halfas = printhalf;
+		halfas = printfhalf;
 		halfbs = printshalf;
 		
 		c++;
