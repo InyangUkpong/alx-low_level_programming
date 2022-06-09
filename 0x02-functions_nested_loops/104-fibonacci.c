@@ -47,11 +47,9 @@ int main(void)
 		halfaf = halfas;
 		halfbf = halfbs;
 		halfas = printfhalf;
-		halfbs = printshalf;
-	
+		halfbs = printshalf;	
 		c++;
 	}
 printf("\n");
-
 return (0);
 }
