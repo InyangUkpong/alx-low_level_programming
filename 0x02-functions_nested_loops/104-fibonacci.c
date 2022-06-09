@@ -48,10 +48,10 @@ int main(void)
 		halfbf = halfbs;
 		halfas = printfhalf;
 		halfbs = printshalf;
-		
+	
 		c++;
 	}
-	printf("\n");
+printf("\n");
 
-	return (0);
+return (0);
 }
