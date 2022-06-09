@@ -49,8 +49,9 @@ int main(void)
 	halfas = printfhalf;
 	halfbs = printshalf;
 	c++;
+
 	}
-	break;
+	
 	printf("\n");
 	return (0);
 }
