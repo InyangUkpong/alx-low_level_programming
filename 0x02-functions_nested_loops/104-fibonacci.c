@@ -50,6 +50,7 @@ int main(void)
 	halfbs = printshalf;
 	c++;
 	}
+	break;
 	printf("\n");
 	return (0);
 }
