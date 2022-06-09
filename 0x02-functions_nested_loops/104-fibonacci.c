@@ -43,15 +43,13 @@ int main(void)
 		printf("%ld%ld", printfhalf, printshalf);
 		if (c == 97)
 			break;
-		printf(", ");
-		halfaf = halfas;
-		halfbf = halfbs;
-		halfas = printfhalf;
-		halfbs = printshalf;
-		c++;
+	printf(", ");
+	halfaf = halfas;
+	halfbf = halfbs;
+	halfas = printfhalf;
+	halfbs = printshalf;
+	c++;
 	}
-
 printf("\n");
 return (0);
-
 }
