@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the largest prime factors of 612852475143
+ * main - prime factors of 1231952 are 2,2,2,2, 37 and 2081
  * description: a program that finds and prints the largest prime factor
  * of a number
- * return: intege 0r
+ * return: intege 0
  */
 
 int main(void)
