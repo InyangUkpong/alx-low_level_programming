@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void print_number(int n_)
+void print_number(int n)
 {
 	unsigned int m;
 
