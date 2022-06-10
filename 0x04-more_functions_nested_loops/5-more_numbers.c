@@ -3,7 +3,7 @@
 /**
  * more_numbers - print 10 times the numbers from 0 - 14
  * description: can only use _putchar 3 times
- * 
+ *
  * Return: void
  */
 void more_numbers(void)
