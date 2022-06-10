@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prime numbers
+ * main - prime factor
  * @n: long number
- * description: a program that finds and prints the largest prime factor
- * of a number
+ * description: allowed to use the standard library
  * return: 0
  */
 
