@@ -2,7 +2,7 @@
 
 /**
  * main - prime factors of 612852475143
- *
+ * description: a program that finds and prints the largest prime factor of number 612852475143
  * return: int
  */
 
