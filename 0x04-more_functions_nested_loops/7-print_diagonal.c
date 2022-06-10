@@ -24,7 +24,7 @@ void print_diagonal(int q)
 		_putchar('\\');
 		_putchar('\n');
 		c++;
-		q++;
+		n--;
 	}
 	if (c < 1)
 		_putchar('\n');
