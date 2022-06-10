@@ -8,12 +8,12 @@
  */
 void more_numbers(void)
 {
-	int q, r;
+int q, r;
 
 	q = 0;
 	while (q < 10)
 	{
-		r = o;
+		r = 0;
 		while (r < 15)
 		{
 			if (r > 9)
