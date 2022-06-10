@@ -18,7 +18,7 @@ void print_diagonal(int q)
 		i = c;
 		while (i > 0)
 		{
-			_putchar('');
+			_putchar(' ');
 			i--;
 		}
 		_putchar('\\');
