@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * print_diagonal - draw a diagonal line
@@ -24,7 +24,7 @@ void print_diagonal(int q)
 		_putchar('\\');
 		_putchar('\n');
 		c++;
-		n--;
+		q--;
 	}
 	if (c < 1)
 		_putchar('\n');
