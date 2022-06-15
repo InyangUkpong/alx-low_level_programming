@@ -2,11 +2,11 @@
 
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
- * @s: input string
+ * @s: input string.
  * Return: the pointer to dest
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int count = 0;
 
