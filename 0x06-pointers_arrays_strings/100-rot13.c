@@ -1,30 +1,29 @@
 #include "main.h"
-
 /**
- * rot13 - ecnodes a string using rot13
- * @q: input string
- * Return: the pointer to dest
+ * rot13 - encodes a string using rot13
+ * @s: input string.
+ * Return: the pointer to dest.
  */
 
-char *rot13(char *q)
+char *rot13(char *s)
 {
 	int count = 0, i;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFCHIJKLM";
+	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-while (*(q + count) != '\0')
-{
-	for (i = 0; i < 52; i++)
+	while (*(s + count) != '\0')
 	{
-		if (*(q + count) == alphabet[i])
-	{
-			*(q + count) = rot13[i];
+		for (i = 0; i < 52; i++)
+		{
+			if (*(s + count) == alphabet[i])
+			{
+				*(s + count) = rot13[i];
 				break;
-	}
-	}
-	count++;
+			}
+		}
+		count++;
 	}
 
-	return (q);
+	return (s);
 }
 
