@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - encodes a string using rot13
- * @s: input string. 
+ * @s: input string.
  * Return: the pointer to dest.
  */
 
