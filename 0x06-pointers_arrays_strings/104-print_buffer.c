@@ -23,12 +23,12 @@ void print_buffer(char *b, int size)
 				if (k % 2 == 0)
 					printf(" ");
 				if (k < size)
-					printf("%.2k", *(b + k));
+					printf("%.2x", *(b + k));
 				else
 					printf("  ");
 			}
 			printf(" ");
-			for (1 = j; 1 < j + 10; 1++)
+			for (l = j; l < j + 10; l++)
 			{
 				if (1 >= size)
 					break;
