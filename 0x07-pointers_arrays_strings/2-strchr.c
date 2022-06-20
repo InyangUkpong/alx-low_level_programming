@@ -8,7 +8,7 @@
  * Description: function that locates a character in a string
  * Return: char pointer
  */
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	char *ptr = s;
 
