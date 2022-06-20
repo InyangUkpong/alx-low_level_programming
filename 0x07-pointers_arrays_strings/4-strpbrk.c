@@ -5,7 +5,7 @@
  * *_strpbrk - main
  * @s: char pointer
  * @accept: char variable
- * @description: function that searches a string for any set of bytes
+ * @Description: function searches a string for set of bytes
  * Return: unsigned int
  */
 char *_strpbrk(char *s, char *accept)
