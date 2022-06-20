@@ -6,6 +6,6 @@ _putchar(char c);
 unsigned int _strspn(char *s, char *accept);
 *_strpbrk(char *s, char *accept);
 *_strstr(char *haystack, char *needle);
-print_chessboard(char (*a)[82]);
+print_chessboard(char (*a)[8]);
 set_string(char **s, char *to);
-print_diagsums(int 8a, int size);
+print_diagsums(int *a, int size);
