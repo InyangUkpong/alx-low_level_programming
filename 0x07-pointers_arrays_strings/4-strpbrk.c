@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * *_strpbrk - main check the code
+ * *_strpbrk - check the code in string for s of byte
  * @s: char pointer
  * @accept: char variable
  * @Description: searches a string for set of bytes
- * Return: unsigned int
+ * Return: pointer to the byte s
  */
 char *_strpbrk(char *s, char *accept)
 {
