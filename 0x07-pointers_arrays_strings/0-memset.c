@@ -8,7 +8,7 @@
  * description: function that fill memory with a constant byte
  * return: char pointer
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
