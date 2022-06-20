@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *_strpbrk - main
+ * *_strpbrk - main check the code
  * @s: char pointer
  * @accept: char variable
- * @Description: function searches a string for set of bytes
+ * @Description: searches a string for set of bytes
  * Return: unsigned int
  */
 char *_strpbrk(char *s, char *accept)
