@@ -5,7 +5,6 @@
  * *_strpbrk - check the code in string for s of byte
  * @s: char pointer
  * @accept: char variable
- * @Description: searches a string for set of bytes
  * Return: pointer to the byte s
  */
 char *_strpbrk(char *s, char *accept)
