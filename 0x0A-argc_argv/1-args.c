@@ -2,7 +2,7 @@
 
 /**
  * main - prints the arguments passed into the main
- * @argc: number of counts 
+ * @argc: number of counts
  * @argv: array of strings
  * Return: 0
  */
