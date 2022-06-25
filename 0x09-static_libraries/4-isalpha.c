@@ -2,7 +2,7 @@
 
 /*
  * File: 4-isalpha.c
- * Auth: Inyang Ukpong
+ * Auth: Adeyemi Anifowose
  */
 
 /**

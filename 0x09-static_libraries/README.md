@@ -1,1 +1,2 @@
-static libray readme
+C - Static libraries
+
