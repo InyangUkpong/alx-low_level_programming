@@ -12,7 +12,7 @@
  * @name: First member
  * @age: Second member
  * @owner: Third member
- * Description: Long description
+ * Description: Longer description
  */
 
 struct dog
