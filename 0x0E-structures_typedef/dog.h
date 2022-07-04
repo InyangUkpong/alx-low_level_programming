@@ -4,17 +4,16 @@
 /*
  * FILE: dog.h
  * Auth: Inyang Ukpong
- * Des: Header file that defines new type struct dog.
+ * Desc: Header file that defines new type struct dog.
  */
 
 /**
- * stuct dog - a dog's basic info
+ * struct dog - a dog's basic info
  * @name: First member
  * @age: Second member
  * @owner: Third member
  * Description: Longer description
  */
-
 struct dog
 {
 	char *name;
@@ -25,7 +24,6 @@ struct dog
 /**
  * dog_t - typedef for struct dog
  */
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
@@ -34,4 +32,3 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 #endif
-
