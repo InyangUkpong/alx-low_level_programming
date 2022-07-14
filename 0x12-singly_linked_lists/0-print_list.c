@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_list - prints all the elements of a linked list
  * @h: linked list of type list_t to print
