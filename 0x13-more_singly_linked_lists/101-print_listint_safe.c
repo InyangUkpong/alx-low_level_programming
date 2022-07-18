@@ -1,31 +1,56 @@
 #include "lists.h"
 
+#include <stdio.h>
+
+size_t looped_listint_len(const listint_t *head);
+size_t print_listint_safe(const listint_t *head);
 
 /**
- * _r - reallocates memory for an array of pointers
- * to the nodes in a linked list
- * @list: the old list to append
- * @size: size of the new list (always one more than the old list)
- * @new: new node to add to the list
+ * looped_listint_len - Counts the number of unique nodes
+ *                      in a looped listint_t linked list.
+ * @head: A pointer to the head of the listint_t to check.
  *
- * Return: pointer to the new list
+ * Return: If the list is not looped - 0.
+ *         Otherwise - the number of unique nodes in the list.
  */
-const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
+size_t looped_listint_len(const listint_t *head)
 {
-	const listint_t **newlist;
-	size_t i;
+	const listint_t *tortoise, *hare;
+	size_t nodes = 1;
 
-	newlist = malloc(size * sizeof(listint_t *));
-	if (newlist == NULL)
+	if (head == NULL || head->next == NULL)
+		return (0);
+
+	tortoise = head->next;
+	hare = (head->next)->next;
+
+	while (hare)
 	{
-		free(list);
-		exit(98);
+		if (tortoise == hare)
+		{
+			tortoise = head;
+			while (tortoise != hare)
+			{
+				nodes++;
+				tortoise = tortoise->next;
+				hare = hare->next;
+			}
+
+			tortoise = tortoise->next;
+			while (tortoise != hare)
+			{
+				nodes++;
+				tortoise = tortoise->next;
+			}
+
+			return (nodes);
+		}
+
+		tortoise = tortoise->next;
+		hare = (hare->next)->next;
 	}
-	for (i = 0; i < size - 1; i++)
-		newlist[i] = list[i];
-	newlist[i] = new;
-	free(list);
-	return (newlist);
+
+	return (0);
 }
 
 /**
