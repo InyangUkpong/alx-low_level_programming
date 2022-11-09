@@ -1,6 +1,6 @@
 # C - Makefiles
 
-In this project, I practiced writing Makefiles.
+In this project, I did practice writing Makefiles.
 
 ## Tests :heavy_check_mark:
 
